@@ -7,9 +7,9 @@ This code reproduces all figures and tables from the paper
 ## Description of files
 
 - `main.ipynb` : Main Jupyter notebook. This file contains code that:
-  - Optionally run simulations and save results to `.jld2` files in `/data` subdirectory
-  - Extract information from data files and produce Figs. 1-5 from the paper
-  - Optionally save the figures as `.pdf` in the `/figures` subdirectory
+  - Optionally runs simulations and saves results to `.jld2` files in `/data`
+  - Extracts information from data files and produces Figs. 1-5 from the paper
+  - Optionally saves the figures as `.pdf` in `/figures`
 - `high_precision.ipynb` : Notebook containing high-precision example
   - Solves analysis instance using arbitrary-precision arithmetic solver
   - Outputs data for Table 2 from the paper
